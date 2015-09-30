@@ -1,28 +1,15 @@
-# annatrojanowska.ca
+# Anna Trojanowska
 
 #### [☛ annatrojanowska.ca](https://annatrojanowska.ca)
 
-Anna Trojanowska tackles even the smallest of design obstacles with fervor. 
-(maybe not that exactly ^^)
-- brightens up a room
-- full of zeal
-- likes to laugh as much as she likes to cry
-- rollercoaster emotions
-- will make you laugh
-- a hoot to be around
-- dorky and embracing it
-- eager to enter the field 
-- relieved to how found her path 
-- appetite
-- zest
-- gusto 
-- relish
--
+# A little about me. 
 
-
+I am a graphic designer and illustrator  with a quirky personality. I love a good laugh and try to find humour in everyday things. My passion is illustration and concept design and my goal is to breathe life into my illustrations using motion graphics. 
 
 - [holla@annatrojanowska.ca](mailto:holla@annatrojanowska.ca)
 - [GitHub](https://github.com/anna-trojanowska)
 - [Instagram](https://instagram.com/pannatrojanowska/)
 - [Twitter](https://twitter.com/_panna_anna)
 - [Behance](https://www.behance.net/annatrojanowska)
+
+Version 1.0.0 Anna Trojanowska 2015.
