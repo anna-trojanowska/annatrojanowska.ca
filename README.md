@@ -4,7 +4,7 @@
 
 ### A little about me. 
 
-I am a graphic designer and illustrator  with a quirky personality. I love a good laugh and try to find humour in everyday things. My passion is illustration and concept design and my goal is to breathe life into my illustrations using motion graphics. 
+I am a graphic designer, an illustrator, and the type of person that notices the flowers bloom. I’m inspired by the unconventional and I always find a reason to laugh. My passions are illustration and concept design, and my goal is to breathe life into my work using motion graphics.
 
 - [holla@annatrojanowska.ca](mailto:holla@annatrojanowska.ca)
 - [GitHub](https://github.com/anna-trojanowska)
