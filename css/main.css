@@ -269,9 +269,9 @@ nav a {
     
     
     .me:hover {
-        -ms-transform: translateY(-40px);
-        -webkit-transform: translateY(-40px,); 
-        transform: translateY(-40px);
+        -ms-transform: translateY(-18px);
+        -webkit-transform: translateY(-18px,); 
+        transform: translateY(-18px);
         -ms-transition: all 0.5s ease;
         -webkit-transition: all 0.5s ease;
         transition: all 0.5s ease;
@@ -305,7 +305,7 @@ nav a {
     }
     
     .skills {
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 0.5px;
         line-height: 1.5em;
         margin-bottom: 1em;
