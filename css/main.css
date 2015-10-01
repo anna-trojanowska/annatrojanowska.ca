@@ -162,6 +162,11 @@ nav a {
     background-size: cover;
 }
 
+.arrow {
+    background-image: url(../images/arrow.gif);
+    background-size: cover;
+}
+
 .thegreatest {
     background-image: url(../images/thegreatest.png);
     background-size: cover;
@@ -192,25 +197,27 @@ nav a {
     display: block;
 }
 
+
+
 /*********************************** ABOUT & CONTACT ***********************************/
 
 .f-doomsayers {
-    background-image: url(../images/mystic-hand.jpg);
+    background-image: url(../images/f-doomsayers.png);
     background-size: cover;
 }
 
 .dart {
-    background-image: url(../images/dart.jpg);
+    background-image: url(../images/dart.png);
     background-size: cover;
 }
 
 .mystic-hand {
-    background-image: url(../images/f-doomsayers.jpg);
+    background-image: url(../images/mystic-hand.png);
     background-size: cover;
 }
 
 .find-the-light {
-    background-image: url(../images/find-the-light.jpg);
+    background-image: url(../images/find-the-light.png);
     background-size: cover;
 }
 
@@ -224,12 +231,10 @@ nav a {
 }
 
 .socialcontainer {
-    margin: -1.5em auto;
+    margin: 2em auto;
     text-align: center;
     max-width: 450px;
-    margin-bottom: 0.2em;
 }
-
 
 .fade {
 	margin:0;
@@ -376,6 +381,70 @@ nav a {
     }
 }
 
+@media only screen and (min-width: 22em) {
+    
+    .banner {
+        margin-left: -1em;
+        margin-right: -1em;
+    }
+        
+    .portfolio {
+        margin-left: -1em;
+        margin-right: -1em;
+        margin-bottom: -1em;
+    }
+    
+    .portfolio-item {
+         margin-top: -1em;
+    }
+    
+     .me:hover {
+        -ms-transform: translateY(-140px);
+        -webkit-transform: translateY(-140px,); 
+        transform: translateY(-140px);
+        -ms-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .me {
+        width: 80%;
+        position: absolute;
+        float: inherit;
+        margin-left: 3em;
+        margin-top: -2.5em;
+    }
+    
+    .flowers {
+        width: 120%;
+        position: absolute;
+        float: inherit;
+        margin-left: -2em;
+        margin-top: -3em;
+    }
+    
+
+    .name {
+        margin-top: 7em;
+        font-size: 24px;
+    }
+    
+    .skills {
+        margin-top: -0.5em;
+        font-size: 16px;
+        letter-spacing: -0.1px;
+        
+    }
+    
+    .location {
+        font-size: 16px;
+    }
+    
+    nav {
+        text-align: right;
+    }
+}
+
 @media only screen and (min-width: 38em) {
     
     .banner {
@@ -403,7 +472,6 @@ nav a {
         float: inherit;
         margin-top: -2em;
         margin-left: 6em;
-        margin-bottom: ;
     }
     
     .flowers {
@@ -412,6 +480,110 @@ nav a {
         float: inherit;
         margin-left: 0;
         margin-top: -3em;
+    }
+        
+    .name {
+        margin-top: 7em;
+        font-size: 24px;
+    }
+    
+    .skills {
+        font-size: 18px;
+    }
+    
+    .location {
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (min-width: 48em) {
+    
+    .banner {
+        margin-left: 0;
+        margin-right: 0;
+    }
+        
+    .portfolio {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+     .me:hover {
+        -ms-transform: translateY(-150px);
+        -webkit-transform: translateY(-150px,); 
+        transform: translateY(-150px);
+        -ms-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .me {
+        width: 60%;
+        position: absolute;
+        float: inherit;
+        margin-top: -2em;
+        margin-left: 9em;
+    }
+    
+    .flowers {
+        width: 100%;
+        position: absolute;
+        float: inherit;
+        margin-left: 0;
+        margin-top: -6em;
+    }
+        
+    .name {
+        margin-top: 7em;
+        font-size: 24px;
+    }
+    
+    .skills {
+        font-size: 18px;
+    }
+    
+    .location {
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (min-width: 57em) {
+    
+    .banner {
+        margin-left: 0;
+        margin-right: 0;
+    }
+        
+    .portfolio {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+     .me:hover {
+        -ms-transform: translateY(-150px);
+        -webkit-transform: translateY(-150px,); 
+        transform: translateY(-150px);
+        -ms-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .me {
+        width: 60%;
+        position: absolute;
+        float: inherit;
+        margin-top: -2em;
+        margin-left: 9em;
+    }
+    
+    .flowers {
+        width: 100%;
+        position: absolute;
+        float: inherit;
+        margin-left: 0;
+        margin-top: -8em;
     }
         
     .name {
@@ -480,6 +652,60 @@ nav a {
         font-size: 18px;
     }
 }
+@media only screen and (min-width: 75em) {
+    
+    .banner {
+        margin-left: 0;
+        margin-right: 0;
+    }
+        
+    .portfolio {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+   .me:hover {
+        -ms-transform: translateY(-400px);
+        -webkit-transform: translateY(-400px,); 
+        transform: translateY(-400px);
+        -ms-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .me {
+        width: 55%;
+        position: absolute;
+        float: inherit;
+        margin-left: 15em;
+        margin-top: -4em;
+    }
+    
+    .flowers {
+        width: 75%;
+        position: absolute;
+        float: inherit;
+        margin-left: 8em;
+        margin-top: -8em;
+    }
+    
+    .name {
+        margin-top: 6em;
+        font-size: 28px;
+    }
+    
+    .skills {
+        font-size: 22px;
+        letter-spacing: -0.2px; 
+    }
+    
+    .location {
+        font-size: 20px;
+        letter-spacing: -0.2px;
+    }
+}
+
+
 
 @media only screen and (min-width: 80em) {
     
@@ -516,6 +742,58 @@ nav a {
         float: inherit;
         margin-left: 13.5em;
         margin-top: -6em;
+    }
+    
+    .name {
+        margin-top: 6em;
+        font-size: 28px;
+    }
+    
+    .skills {
+        font-size: 22px;
+        letter-spacing: -0.2px; 
+    }
+    
+    .location {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 87em) {
+    
+    .banner {
+        margin-left: 0;
+        margin-right: 0;
+    }
+        
+    .portfolio {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+   .me:hover {
+        -ms-transform: translateY(-400px);
+        -webkit-transform: translateY(-400px,); 
+        transform: translateY(-400px);
+        -ms-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .me {
+        width: 55%;
+        position: absolute;
+        float: inherit;
+        margin-left: 17.5em;
+        margin-top: -4em;
+    }
+    
+    .flowers {
+        width: 60%;
+        position: absolute;
+        float: inherit;
+        margin-left: 15em;
+        margin-top: -7em;
     }
     
     .name {
