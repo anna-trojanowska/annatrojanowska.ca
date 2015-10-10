@@ -36,7 +36,7 @@ body {
 }
 
 a:hover {
-    color: #D5E4D7;
+    color: #C3D1CB;
 }
 
 a {
@@ -44,10 +44,6 @@ a {
     text-decoration:underline;
     letter-spacing: 1px;
 }
-
-
-
-
     
 
 /*********************************** NAVIGATION ***********************************/
@@ -86,7 +82,7 @@ nav li {
 }
     
 nav a:hover {
-    color: #D5E4D7;
+    color: #C3D1CB;
 }
 
 nav a {
@@ -100,11 +96,17 @@ nav a {
 /*********************************** BANNER ***********************************/
 
 .banner {
-    background-color:#C3D1CA;
-    overflow: hidden;
-    min-height: 60vh;
-    position: relative;
+    overflow: visible;
+    min-height: 25em;
+    dispay: block;
 }
+
+/**@supports (min-height: 60vh)
+    
+    .banner {
+        min-height: 60vh;
+    }**/
+
 
 .info {
     font-family: 'Open Sans', sans-serif; 
@@ -118,38 +120,31 @@ nav a {
     font-weight: 400;
     letter-spacing: 2px;
     margin-bottom: 0.2em;
+    font-weight: bolder;
 }
 
 .name {
+    margin-top: -1em;
     font-weight: lighter;
     letter-spacing: 2px;
-    margin-top: 1em;
-    margin-bottom: 0em;
+    line-height: 1em;
 }
 
 .location {
     font-weight: lighter;
 }
-
-.me {
-    z-index: 3;
-    display: block;
-    position: relative; 
-}
-
-
-
-.flowers {
-    z-index: 3;
-    display: block;
-    position: relative;
-}
-
     
 .skills {
     text-transform: uppercase;
+
 }
 
+.divider {
+    border-top: 2px solid;
+    color: #414042;
+    margin-left: 4em;
+    margin-right: 4em;
+}
 
 
 /*********************************** PORTFOLIO ***********************************/
@@ -205,12 +200,13 @@ nav a {
 }
 
 .portfolio {
-    margin-bottom: 4em;
+    padding-bottom: 4em;
 }
 
 .portfolio a {
     display: block;
 }
+
 
 /*********************************** PORTFOLIO PIECE: FAMILIAR THINGS ***********************************/
 
@@ -240,6 +236,18 @@ nav a {
     background-size: cover;
 }
 
+.bannerpic {
+    padding-bottom: 2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-left:-2.5em;
+}
+
 
 /*********************************** FOOTER ***********************************/
 
@@ -258,6 +266,7 @@ nav a {
 .fade {
 	margin:0;
 }
+
 .fade {
     -webket-transition: all 0.5s ease-in-out;
 	transition: all 0.3s ease-in-out;
@@ -267,11 +276,24 @@ nav a {
 	opacity: 0.5;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.letstalk {
+    padding-top: 2em;
+}
+
+.email {
+    padding-bottom: 1em;
+    font-weight: lighter;
+}
+
 /*********************************** MEDIA QUERIES ***********************************/
 
-@media only screen and (min-width: 15em) {
+@media only screen and (min-width: 20em) {
     
-      .banner {
+    .banner {
         margin-left: -1em;
         margin-right: -1em;
     }
@@ -279,13 +301,12 @@ nav a {
     .portfolio {
         margin-left: -1em;
         margin-right: -1em;
-        margin-bottom: -1em;
+        margin-bottom: 1em;
     }
     
     .portfolio-item {
          margin-top: -1em;
     }
-    
     
     .me:hover {
         -ms-transform: translateY(-18px);
@@ -296,110 +317,23 @@ nav a {
         transition: all 0.5s ease;
     }
     
-    
     .socialcontainer {
         width: 100%;
     }
     
-    .me {
-        width: 80%;
-        position: absolute;
-        float: inherit;
-        margin-left: 1.5em;
-        margin-top: -3em;
-    }
-    
-    .flowers {
-        width: 120%;
-        position: absolute;
-        float: inherit;
-        margin-left: -1em;
-    }
-    
     .name {
-        margin-top: 4em;
         margin-bottom: 1em;
-        font-size: 22px;
-        line-height: 1em;
-        letter-spacing: -0.2px;
-    }
-    
-    .skills {
-        font-size: 16px;
-        letter-spacing: 0.5px;
-        line-height: 1.5em;
-        margin-bottom: 1em;
-    }
-    
-    .location {
-        font-size: 16px;
-    }
-}
-    
-@media only screen and (min-width: 22em) {
-    
-    .banner {
-        margin-left: -1em;
-        margin-right: -1em;
-    }
-        
-    .portfolio {
-        margin-left: -1em;
-        margin-right: -1em;
-        margin-bottom: -1em;
-    }
-    
-    .portfolio-item {
-         margin-top: -1em;
-    }
-    
-     .me:hover {
-        -ms-transform: translateY(-140px);
-        -webkit-transform: translateY(-140px,); 
-        transform: translateY(-140px);
-        -ms-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    
-    .me {
-        width: 80%;
-        position: absolute;
-        float: inherit;
-        margin-left: 3em;
-        margin-top: -2.5em;
-    }
-    
-    .flowers {
-        width: 120%;
-        position: absolute;
-        float: inherit;
-        margin-left: -2em;
-        margin-top: -3em;
-    }
-    
-
-    .name {
-        margin-top: 7em;
-        font-size: 24px;
-    }
-    
-    .skills {
         margin-top: -0.5em;
-        font-size: 16px;
-        letter-spacing: -0.1px;
-        
+       
     }
     
-    .location {
-        font-size: 16px;
-    }
-    
-    nav {
-        text-align: right;
-    }
-}
+    .skills {
+        margin-bottom: 1em;
 
+    }
+    
+}
+    
 
 @media only screen and (min-width: 25em) {
     
@@ -427,42 +361,13 @@ nav a {
         transition: all 0.5s ease;
     }
     
-    .me {
-        width: 80%;
-        position: absolute;
-        float: inherit;
-        margin-left: 2em;
-        margin-top: -2.5em;
-    }
-    
-    .flowers {
-        width: 120%;
-        position: absolute;
-        float: inherit;
-        margin-left: -2em;
-        margin-top: -1em;
-    }
-    
-
-    .name {
-        margin-top: 6em;
-        font-size: 24px;
-    }
-    
-    .skills {
-        margin-top: -0.5em;
-        font-size: 12px;
-        letter-spacing: -0.1px;
-        
-    }
-    
-    .location {
-        font-size: 14px;
-    }
-    
     nav {
         text-align: right;
     }
+    
+
+    
+    
 }
 
 
@@ -488,139 +393,19 @@ nav a {
         transition: all 0.5s ease;
     }
     
-    .me {
-        width: 60%;
-        position: absolute;
-        float: inherit;
-        margin-top: -2em;
-        margin-left: 6em;
-    }
-    
     .flowers {
-        width: 100%;
-        position: absolute;
-        float: inherit;
-        margin-left: 0;
-        margin-top: -3em;
-    }
-        
-    .name {
-        margin-top: 7em;
-        font-size: 24px;
+        max-width: 95%;
+        object-position: center;
     }
     
-    .skills {
-        font-size: 18px;
+    .name {
+        margin-top: -1.5em;
     }
     
     .location {
-        font-size: 16px;
+        margin-bottom: 4em;
     }
-    
-}
 
-@media only screen and (min-width: 48em) {
-    
-    .banner {
-        margin-left: 0;
-        margin-right: 0;
-    }
-        
-    .portfolio {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-     .me:hover {
-        -ms-transform: translateY(-150px);
-        -webkit-transform: translateY(-150px,); 
-        transform: translateY(-150px);
-        -ms-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    
-    .me {
-        width: 60%;
-        position: absolute;
-        float: inherit;
-        margin-top: -2em;
-        margin-left: 9em;
-    }
-    
-    .flowers {
-        width: 100%;
-        position: absolute;
-        float: inherit;
-        margin-left: 0;
-        margin-top: -6em;
-    }
-        
-    .name {
-        margin-top: 7em;
-        font-size: 24px;
-    }
-    
-    .skills {
-        font-size: 18px;
-    }
-    
-    .location {
-        font-size: 16px;
-    }
-    
-}
-
-@media only screen and (min-width: 57em) {
-    
-    .banner {
-        margin-left: 0;
-        margin-right: 0;
-    }
-        
-    .portfolio {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-     .me:hover {
-        -ms-transform: translateY(-150px);
-        -webkit-transform: translateY(-150px,); 
-        transform: translateY(-150px);
-        -ms-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    
-    .me {
-        width: 60%;
-        position: absolute;
-        float: inherit;
-        margin-top: -2em;
-        margin-left: 9em;
-    }
-    
-    .flowers {
-        width: 100%;
-        position: absolute;
-        float: inherit;
-        margin-left: 0;
-        margin-top: -8em;
-    }
-        
-    .name {
-        margin-top: 7em;
-        font-size: 24px;
-    }
-    
-    .skills {
-        font-size: 18px;
-    }
-    
-    .location {
-        font-size: 16px;
-    }
-    
 }
 
 @media only screen and (min-width: 60em) {
@@ -644,89 +429,17 @@ nav a {
         transition: all 0.5s ease;
     }
     
-    .me {
-        width: 75%;
-        position: absolute;
-        float: inherit;
-        margin-left: 7em;
-        margin-top: -5em;
-    }
-    
     .flowers {
-        width: 80%;
-        position: absolute;
-        float: inherit;
-        margin-left: 4em;
-        margin-top: -6em;
+        max-width: 70%;
     }
     
     .name {
-        margin-top: 6em;
-        font-size: 28px;
+        font-size: 32px;
+        margin-bottom: 0.8em;
+        margin-top: -2em;
     }
     
-    .skills {
-        font-size: 20px;
-        letter-spacing: -0.2px; 
-    }
-    
-    .location {
-        font-size: 18px;
-    }
 }
-@media only screen and (min-width: 75em) {
-    
-    .banner {
-        margin-left: 0;
-        margin-right: 0;
-    }
-        
-    .portfolio {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-   .me:hover {
-        -ms-transform: translateY(-400px);
-        -webkit-transform: translateY(-400px,); 
-        transform: translateY(-400px);
-        -ms-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    
-    .me {
-        width: 55%;
-        position: absolute;
-        float: inherit;
-        margin-left: 15em;
-        margin-top: -4em;
-    }
-    
-    .flowers {
-        width: 75%;
-        position: absolute;
-        float: inherit;
-        margin-left: 8em;
-        margin-top: -8em;
-    }
-    
-    .name {
-        margin-top: 6em;
-        font-size: 28px;
-    }
-    
-    .skills {
-        font-size: 22px;
-        letter-spacing: -0.2px; 
-    }
-    
-    .location {
-        font-size: 20px;
-        letter-spacing: -0.2px;
-    }
-}
-
 
 
 @media only screen and (min-width: 80em) {
@@ -750,89 +463,15 @@ nav a {
         transition: all 0.5s ease;
     }
     
-    .me {
-        width: 55%;
-        position: absolute;
-        float: inherit;
-        margin-left: 16em;
-        margin-top: -4em;
-    }
-    
     .flowers {
-        width: 60%;
-        position: absolute;
-        float: inherit;
-        margin-left: 13.5em;
-        margin-top: -6em;
+        max-width: 60%;
     }
     
     .name {
-        margin-top: 6em;
-        font-size: 28px;
+        margin-top: -2em;
     }
-    
-    .skills {
-        font-size: 22px;
-        letter-spacing: -0.2px; 
-    }
-    
-    .location {
-        font-size: 20px;
-    }
-}
 
-@media only screen and (min-width: 87em) {
-    
-    .banner {
-        margin-left: 0;
-        margin-right: 0;
-    }
-        
-    .portfolio {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-   .me:hover {
-        -ms-transform: translateY(-400px);
-        -webkit-transform: translateY(-400px,); 
-        transform: translateY(-400px);
-        -ms-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    
-    .me {
-        width: 55%;
-        position: absolute;
-        float: inherit;
-        margin-left: 17.5em;
-        margin-top: -4em;
-    }
-    
-    .flowers {
-        width: 60%;
-        position: absolute;
-        float: inherit;
-        margin-left: 15em;
-        margin-top: -7em;
-    }
-    
-    .name {
-        margin-top: 6em;
-        font-size: 28px;
-    }
-    
-    .skills {
-        font-size: 22px;
-        letter-spacing: -0.2px; 
-    }
-    
-    .location {
-        font-size: 20px;
-    }
 }
-
 
 @media only screen and (min-width: 90em) {
     
@@ -855,40 +494,14 @@ nav a {
         transition: all 0.5s ease;
     }
     
-    .me {
-        width: 50%;
-        position: absolute;
-        float: inherit;
-        margin-top: -4em;
-        margin-bottom: auto;
-        margin-left: 18em;
-        margin-right: auto;
-    }
-    
     .flowers {
-        width: 60%;
-        position: absolute;
-        float: inherit;
-        margin-top: -8em;
-        margin-bottom: auto;
-        margin-left: 14em;
-        margin-right: 1em;
+        max-width: 60%;
     }
     
     .name {
-        font-size: 28px;
-        margin-top: 5em;
+        margin-top: -3em;
     }
     
-     .skills {
-        font-size: 20px;
-         letter-spacing: -0.5px;
-    }
-    
-    .location {
-        font-size: 18px;
-    }
-    
-  
+
 }
 
