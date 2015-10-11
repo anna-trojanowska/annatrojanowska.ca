@@ -167,6 +167,11 @@ nav a {
     background-size: cover; 
 }
 
+.restaurant {
+    background-image: url(../images/restaurant.png);
+    background-size: cover; 
+}
+
 .familiar-things {
     background-image: url(../images/familiar-things.png);
     background-size: cover;
