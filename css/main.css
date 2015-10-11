@@ -136,6 +136,7 @@ nav a {
     
 .skills {
     text-transform: uppercase;
+    font-weight: 400;
 
 }
 
@@ -155,6 +156,15 @@ nav a {
 
 .squarifier {
     padding-top: 100%;
+}
+
+.rectanglifier {
+    padding-top: 50%;
+}
+
+.heartbeats {
+    background-image: url(../images/heartbeats.gif);
+    background-size: cover; 
 }
 
 .familiar-things {
@@ -213,6 +223,20 @@ nav a {
 .portfolio-piece {
       
 }
+
+/*********************************** PORTFOLIO PIECE: MISFITS ***********************************/
+
+.misfits-front {
+    background-image: url(../images/misfits-front.png);
+    background-size: cover;   
+}
+
+.misfits-back {
+    background-image: url(../images/misfits-back.png);
+    background-size: cover;  
+}
+
+
 
 /*********************************** ABOUT & CONTACT ***********************************/
 
@@ -321,9 +345,8 @@ li {
         width: 100%;
     }
     
-    .name {
-        margin-bottom: 1em;
-        margin-top: -0.5em;
+    .wordmark {
+        margin-top: -1em;
        
     }
     
@@ -365,6 +388,9 @@ li {
         text-align: right;
     }
     
+    .wordmark {
+        
+    }
 
     
     
@@ -398,8 +424,9 @@ li {
         object-position: center;
     }
     
-    .name {
-        margin-top: -1.5em;
+    .wordmark {
+        margin-top: -3.5em;
+        width: 24em;
     }
     
     .location {
