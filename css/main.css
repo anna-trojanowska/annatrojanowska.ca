@@ -225,9 +225,16 @@ nav a {
 
 /*********************************** PORTFOLIO PIECE: FAMILIAR THINGS ***********************************/
 
-.portfolio-piece {
-      
+
+
+/*********************************** PORTFOLIO PIECE: THE RESTAURANT AT THE END OF THE UNIVERSE ***********************************/
+
+/*********************************** PORTFOLIO PIECE: SPRING HEARTBEATS ***********************************/
+
+.full {
+    width: 100%;
 }
+
 
 /*********************************** PORTFOLIO PIECE: MISFITS ***********************************/
 
@@ -241,6 +248,13 @@ nav a {
     background-size: cover;  
 }
 
+.misfits-front {
+    margin-top: -4em;
+}
+
+.misfits-back {
+    margin-top: -4em;
+}
 
 
 /*********************************** ABOUT & CONTACT ***********************************/
@@ -276,6 +290,22 @@ ul {
 li {
     margin-left:-2.5em;
 }
+
+.tech {
+    margin-bottom: 0.5em;
+    margin-top: -2em;
+}
+
+.abilities {
+    margin-bottom: 0.5em;
+    margin-top: -2em;
+}
+
+.about {
+    margin-bottom: -2em;
+}
+
+
 
 
 /*********************************** FOOTER ***********************************/
@@ -337,15 +367,6 @@ li {
          margin-top: -1em;
     }
     
-    .me:hover {
-        -ms-transform: translateY(-18px);
-        -webkit-transform: translateY(-18px,); 
-        transform: translateY(-18px);
-        -ms-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    
     .socialcontainer {
         width: 100%;
     }
@@ -380,15 +401,6 @@ li {
          margin-top: -1em;
     }
     
-     .me:hover {
-        -ms-transform: translateY(-60px);
-        -webkit-transform: translateY(-60px,); 
-        transform: translateY(-60px);
-        -ms-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    
     nav {
         text-align: right;
     }
@@ -397,8 +409,6 @@ li {
         
     }
 
-    
-    
 }
 
 
@@ -413,15 +423,6 @@ li {
     .portfolio {
         margin-left: 0;
         margin-right: 0;
-    }
-    
-     .me:hover {
-        -ms-transform: translateY(-100px);
-        -webkit-transform: translateY(-100px,); 
-        transform: translateY(-100px);
-        -ms-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
     }
     
     .flowers {
@@ -452,15 +453,6 @@ li {
         margin-right: 0;
     }
     
-   .me:hover {
-        -ms-transform: translateY(-350px);
-        -webkit-transform: translateY(-350px,); 
-        transform: translateY(-350px);
-        -ms-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    
     .flowers {
         max-width: 70%;
     }
@@ -486,15 +478,6 @@ li {
         margin-right: 0;
     }
     
-   .me:hover {
-        -ms-transform: translateY(-400px);
-        -webkit-transform: translateY(-400px,); 
-        transform: translateY(-400px);
-        -ms-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    
     .flowers {
         max-width: 60%;
     }
@@ -502,6 +485,7 @@ li {
     .name {
         margin-top: -2em;
     }
+
 
 }
 
@@ -517,21 +501,17 @@ li {
         margin-right: 0;
     }
     
-    .me:hover {
-        -ms-transform: translateY(-400px);
-        -webkit-transform: translateY(-400px,); 
-        transform: translateY(-400px);
-        -ms-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    
     .flowers {
         max-width: 60%;
     }
     
     .name {
         margin-top: -3em;
+    }
+    
+    .portfolio-full-info {
+            margin-top: -10em;
+            }
     }
     
 
