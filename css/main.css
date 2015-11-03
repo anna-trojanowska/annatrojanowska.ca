@@ -425,11 +425,11 @@ nav a {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: bullet;
 }
 
 li {
-    margin-left: -2.5em;
+    margin-left: -1em;
 }
 
 .tech {
