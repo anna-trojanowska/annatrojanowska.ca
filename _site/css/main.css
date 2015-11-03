@@ -191,7 +191,7 @@ nav a {
 .carousel-control {
     background: rgba(0, 0, 0, 0.28);
     border-radius: 50%;
-    color: #fff;
+    color: white;
     cursor: pointer;
     display: none;
     font-size: 40px;
@@ -217,8 +217,8 @@ nav a {
 }
 
 .carousel-control:hover {
-    background: rgba(0, 0, 0, 0.8);
-    color: #aaaaaa;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
 }
 
 #carousel-1:checked ~ .control-1,
@@ -258,7 +258,7 @@ nav a {
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-    color: #428bca;
+    color: #C3D1CB;
 }
 
 #title {
