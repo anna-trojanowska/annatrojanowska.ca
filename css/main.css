@@ -92,6 +92,13 @@ nav a {
     letter-spacing: 1px;
 }
 
+.wordmark-stacked {
+    position: absolute;
+    top: 14px;
+    left: 2%;
+    width: 60px;
+}
+
   
 /*********************************** BANNER ***********************************/
 
@@ -149,6 +156,125 @@ nav a {
 
 
 /*********************************** PORTFOLIO ***********************************/
+
+/*********************************** CAROUSEL ***********************************/
+
+.carousel {
+    position: relative;
+    margin-top: 26px;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+
+#title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+/*********************************** CAROUSEL ***********************************/
 
 .image100 {
     width: 100%;
@@ -223,6 +349,26 @@ nav a {
 }
 
 
+/*********************************** VIDEO ***********************************/
+
+.embed-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.embed {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.embed-16by9 {
+    padding-top: 56.25%;
+}
+
 /*********************************** PORTFOLIO PIECE: FAMILIAR THINGS ***********************************/
 
 
@@ -230,11 +376,6 @@ nav a {
 /*********************************** PORTFOLIO PIECE: THE RESTAURANT AT THE END OF THE UNIVERSE ***********************************/
 
 /*********************************** PORTFOLIO PIECE: SPRING HEARTBEATS ***********************************/
-
-.full {
-    width: 100%;
-}
-
 
 /*********************************** PORTFOLIO PIECE: MISFITS ***********************************/
 
@@ -352,10 +493,15 @@ li {
 
 @media only screen and (min-width: 20em) {
     
+    .wordmark-stacked {
+    position: absolute;
+    top: -60px;
+    }
+
     .banner {
         margin-left: -1em;
         margin-right: -1em;
-    }
+     }
         
     .portfolio {
         margin-left: -1em;
@@ -386,6 +532,11 @@ li {
 
 @media only screen and (min-width: 25em) {
     
+    .wordmark-stacked {
+    position: absolute;
+    top: -60px;
+    }
+    
      .banner {
         margin-left: -1em;
         margin-right: -1em;
@@ -415,6 +566,14 @@ li {
 
 @media only screen and (min-width: 38em) {
     
+    .wordmark-stacked {
+        position: absolute;
+        top: 14px;
+        left: 2%;
+        width: 60px;
+    }
+
+    
     .banner {
         margin-left: 0;
         margin-right: 0;
@@ -443,6 +602,14 @@ li {
 
 @media only screen and (min-width: 60em) {
     
+    
+    .wordmark-stacked {
+        position: absolute;
+        top: 14px;
+        left: 2%;
+        width: 60px;
+    }
+    
     .banner {
         margin-left: 0;
         margin-right: 0;
@@ -468,6 +635,13 @@ li {
 
 @media only screen and (min-width: 80em) {
     
+    .wordmark-stacked {
+        position: absolute;
+        top: 14px;
+        left: 2%;
+        width: 60px;
+    }
+    
     .banner {
         margin-left: 0;
         margin-right: 0;
@@ -490,6 +664,13 @@ li {
 }
 
 @media only screen and (min-width: 90em) {
+    
+    .wordmark-stacked {
+        position: absolute;
+        top: 14px;
+        left: 2%;
+        width: 60px;
+    }
     
     .banner {
         margin-left: 0;
