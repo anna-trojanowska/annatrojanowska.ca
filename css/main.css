@@ -150,8 +150,8 @@ nav a {
 .divider {
     border-top: 2px solid;
     color: #414042;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 14em;
+    margin-right: 14em;
 }
 
 
@@ -395,6 +395,10 @@ nav a {
 
 .misfits-back {
     margin-top: -4em;
+}
+
+.front-back {
+    text-align: center;
 }
 
 
