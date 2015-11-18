@@ -49,7 +49,6 @@ a {
 /*********************************** NAVIGATION ***********************************/
 
 .navbar {
-    background-color: white;
     margin-left: 2em;
     margin-right: 2em;
 }
@@ -64,7 +63,7 @@ nav {
     text-align: center;
     margin: 0 auto;
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
     
 nav ul {
@@ -317,8 +316,8 @@ nav a {
 }
 
 .portfolio-img-link:hover .details {
-    opacity: .75;
-    color: black;
+    opacity: 0.80;
+    color: #414042;
 }
 
 .portfolio-img-link {
@@ -524,6 +523,10 @@ li {
 .email {
     padding-bottom: 1em;
     font-weight: lighter;
+}
+
+.flowers-small {
+    max-width: 8em;
 }
 
 /*********************************** MEDIA QUERIES ***********************************/

@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <main role="main">
 
     {% include nav.html %}
     
@@ -22,7 +23,7 @@
     
     <hr class="divider">
     
-    <div class="footer">
+    <div class="footer" role="contentinfo">
         <h3 class="letstalk text-center">Let's talk!</h3>
         <h6 class="text-center email"><a href="mailto:holla@annatrojanowska.ca?Subject:Yo!" class="email">holla@annatrojanowska.ca</a></h6>
         <div class="grid socialcontainer">
@@ -43,13 +44,20 @@
             </div>
         </div>
         
-<!----  <div>
-            <img class="metriangle img-flex" src="{{site.baseurl}}/images/metriangle-2.png" alt="Me With Antlers in a Triangle">
+        <!--<div>
+            <img class="flowers-small img-flex" src="{{site.baseurl}}/images/flowers-small.png" alt="small flowers in footer">
+        </div>-->
+    </div>
+    
+        <div class="">
+            <p class="push-0 island-1-2">© Anna Trojanowska</p>
         </div>
-    </div> ------>
+    
+    
                                                         
     <script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"</script>
     <script src=" js/main.js"></script>
-    
+        
+        </main>
 </body>
 </html>
