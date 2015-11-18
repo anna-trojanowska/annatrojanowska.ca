@@ -114,7 +114,6 @@ nav a {
         min-height: 60vh;
     }**/
 
-
 .info {
     font-family: 'Open Sans', sans-serif; 
     letter-spacing: 1px;
@@ -126,6 +125,7 @@ nav a {
 .skills {
     font-weight: 400;
     letter-spacing: 2px;
+    padding-top:1em;
     margin-bottom: 0.2em;
     font-weight: bolder;
 }
@@ -283,10 +283,49 @@ nav a {
     padding-top: 100%;
 }
 
-.rectanglifier {
-    padding-top: 50%;
+.details {
+    position: absolute;
+    opacity: 0;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-color: white;
+    border: 0;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
+.details p {
+    margin-bottom: 0;
+}
+
+.portfolio-img-link:hover .details {
+    opacity: .75;
+    color: black;
+}
+
+.portfolio-img-link {
+    position: relative;
+}
+
+/**
 .heartbeats {
     background-image: url(../images/heartbeats.gif);
     background-size: cover; 
@@ -332,12 +371,7 @@ nav a {
     background-image: url(../images/skull-&-flowers.gif);
     background-size: cover;
 }
-
-
-.placeholder {
-    background-image: url(../images/placeholder-01.png);
-    background-size: cover;
-}
+**/
 
 .portfolio {
     padding-bottom: 4em;
@@ -512,7 +546,7 @@ li {
         margin-bottom: 1em;
     }
     
-    .portfolio-item {
+    .portfolio-img-link {
          margin-top: -1em;
     }
     
@@ -558,10 +592,6 @@ li {
     nav {
         text-align: right;
     }
-    
-    .wordmark {
-        
-    }
 
 }
 
@@ -593,8 +623,8 @@ li {
     }
     
     .wordmark {
-        margin-top: -3.5em;
-        width: 24em;
+        margin-top: -6em;
+        width: 28em;
     }
     
     .location {
