@@ -33,6 +33,7 @@ body {
     margin: 0;
     padding: 0;
     color: #414042;
+    overflow-x: hidden;
 }
 
 a:hover {
