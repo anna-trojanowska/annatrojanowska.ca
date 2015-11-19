@@ -130,7 +130,8 @@ nav a {
 }
 
 .name {
-    margin-top: -1em;
+    padding-top: 1em;
+    margin-top: 0em;
     font-weight: lighter;
     letter-spacing: 2px;
     line-height: 1em;
