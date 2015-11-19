@@ -539,7 +539,7 @@ li {
 
 @media only screen and (min-width: 20em) {
     
-    .wordmark-stacked {
+    .lettermark {
     position: absolute;
     top: -60px;
     }
@@ -578,9 +578,9 @@ li {
 
 @media only screen and (min-width: 25em) {
     
-    .wordmark-stacked {
-    position: absolute;
-    top: -60px;
+    .lettermark {
+        position: absolute;
+        top: -60px;
     }
     
      .banner {
@@ -608,7 +608,7 @@ li {
 
 @media only screen and (min-width: 38em) {
     
-    .wordmark-stacked {
+    .lettermark {
         position: absolute;
         top: 14px;
         left: 2%;
@@ -645,7 +645,7 @@ li {
 @media only screen and (min-width: 60em) {
     
     
-    .wordmark-stacked {
+    .lettermark {
         position: absolute;
         top: 14px;
         left: 2%;
@@ -677,7 +677,7 @@ li {
 
 @media only screen and (min-width: 80em) {
     
-    .wordmark-stacked {
+    .lettermark {
         position: absolute;
         top: 14px;
         left: 2%;
@@ -707,7 +707,7 @@ li {
 
 @media only screen and (min-width: 90em) {
     
-    .wordmark-stacked {
+    .lettermark {
         position: absolute;
         top: 14px;
         left: 2%;
