@@ -148,10 +148,10 @@ nav a {
 }
 
 .divider {
-    border-top: 2px solid;
+    border-top: 2.8px solid;
     color: #414042;
-    margin-left: 14em;
-    margin-right: 14em;
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 /*********************************** CAROUSEL ***********************************/
@@ -528,6 +528,10 @@ li {
 
 .flowers-small {
     max-width: 8em;
+}
+
+.micro {
+    color: #A9A9A9;
 }
 
 /*********************************** MEDIA QUERIES ***********************************/
