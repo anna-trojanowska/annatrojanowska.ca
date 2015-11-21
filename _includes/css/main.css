@@ -108,12 +108,6 @@ nav a {
     dispay: block;
 }
 
-/**@supports (min-height: 60vh)
-    
-    .banner {
-        min-height: 60vh;
-    }**/
-
 .info {
     font-family: 'Open Sans', sans-serif; 
     letter-spacing: 1px;
@@ -151,8 +145,8 @@ nav a {
 .divider {
     border-top: 2.8px solid;
     color: #414042;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 6em;
+    margin-right: 6em;
 }
 
 /*********************************** CAROUSEL ***********************************/
@@ -317,6 +311,10 @@ nav a {
     margin-bottom: 0;
 }
 
+.detail {
+    text-align: center;
+}
+
 .portfolio-img-link:hover .details {
     opacity: 0.80;
     color: #414042;
@@ -325,54 +323,6 @@ nav a {
 .portfolio-img-link {
     position: relative;
 }
-
-/**
-.heartbeats {
-    background-image: url(../images/heartbeats.gif);
-    background-size: cover; 
-}
-
-.restaurant {
-    background-image: url(../images/restaurant.png);
-    background-size: cover; 
-}
-
-.familiar-things {
-    background-image: url(../images/familiar-things.png);
-    background-size: cover;
-}
-
-.banana {
-    background-image: url(../images/banana.gif);
-    background-size: cover;
-}
-
-.misfits {
-    background-image: url(../images/misfits.jpg);
-    background-size: cover;
-}
-
-.arrow {
-    background-image: url(../images/arrow.gif);
-    background-size: cover;
-}
-
-.the-greatest {
-    background-image: url(../images/the-greatest.png);
-    background-size: cover;
-}
-
-
-.portrait {
-    background-image: url(../images/portrait.png);
-    background-size: cover;
-}
-
-.skull-flower {
-    background-image: url(../images/skull-&-flowers.gif);
-    background-size: cover;
-}
-**/
 
 .portfolio {
     padding-bottom: 4em;
@@ -632,7 +582,7 @@ li {
     }
     
     .wordmark {
-        margin-top: -6em;
+        margin-top: -4em;
         width: 28em;
     }
     
