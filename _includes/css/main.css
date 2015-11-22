@@ -432,22 +432,20 @@ li {
     margin-left: -1em;
 }
 
-.tech {
+.techh4 {
     margin-bottom: 0.5em;
     margin-top: -1em;
 }
 
-.abilities {
+.abilitiesh4 {
     margin-bottom: 0.5em;
     margin-top: -1em;
 }
 
 .about {
     margin-bottom: -2em;
+    padding-bottom: 4em;
 }
-
-
-
 
 /*********************************** FOOTER ***********************************/
 
@@ -500,11 +498,6 @@ li {
 /*********************************** MEDIA QUERIES ***********************************/
 
 @media only screen and (min-width: 20em) {
-    
-    .lettermark {
-    position: absolute;
-    top: -60px;
-    }
 
     .banner {
         margin-left: -1em;
@@ -535,6 +528,12 @@ li {
 
     }
     
+    .abilities {
+        padding-left: -5em;
+    }
+
+        
+
 }
     
 
@@ -562,6 +561,10 @@ li {
     
     nav {
         text-align: right;
+    }
+    
+    .abilities {
+        padding-left: -5em;
     }
 
 }
@@ -601,6 +604,10 @@ li {
     .location {
         margin-bottom: 4em;
     }
+    
+    .abilities {
+        padding-left: 5em;
+    }
 
 }
 
@@ -634,6 +641,10 @@ li {
         margin-top: -2em;
     }
     
+    .abilities {
+        padding-left: 5em;
+    }
+    
 }
 
 
@@ -662,6 +673,10 @@ li {
     
     .name {
         margin-top: -2em;
+    }
+    
+    .abilities {
+        padding-left: 5em;
     }
 
 
@@ -694,6 +709,9 @@ li {
         margin-top: -3em;
     }
     
+    .abilities {
+        padding-left: 5em;
+    }
 
 }
 
