@@ -508,12 +508,6 @@ li {
         margin-left: -1em;
         margin-right: -1em;
      }
-        
-    .portfolio {
-        margin-left: -1em;
-        margin-right: -1em;
-        margin-bottom: 1em;
-    }
     
     .portfolio-img-link {
          margin-top: -1em;
@@ -540,6 +534,11 @@ li {
     .media-fix {
         margin-left: -4em;
         margin-right: -4em;
+    }
+    
+    .media-fix-less {
+        margin-left: -2em;
+        margin-right: -2em;
     }
     
     .grow {
@@ -559,12 +558,6 @@ li {
         margin-left: -1em;
         margin-right: -1em;
      }
-        
-    .portfolio {
-        margin-left: -1em;
-        margin-right: -1em;
-        margin-bottom: 1em;
-    }
     
     .portfolio-img-link {
          margin-top: -1em;
@@ -591,6 +584,11 @@ li {
     .media-fix {
         margin-left: -4em;
         margin-right: -4em;
+    }
+    
+    .media-fix-less {
+        margin-left: -2em;
+        margin-right: -2em;
     }
     
     .grow {
@@ -612,12 +610,6 @@ li {
         margin-left: -1em;
         margin-right: -1em;
     }
-        
-    .portfolio {
-        margin-left: -1em;
-        margin-right: -1em;
-        margin-bottom: -1em;
-    }
     
     .portfolio-item {
          margin-top: -1em;
@@ -634,6 +626,11 @@ li {
     .media-fix {
         margin-left: -4em;
         margin-right: -4em;
+    }
+    
+    .media-fix-less {
+        margin-left: -2em;
+        margin-right: -2em;
     }
     
     .grow {
@@ -660,11 +657,6 @@ li {
         margin-right: 0;
     }
         
-    .portfolio {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
     .flowers {
         max-width: 95%;
         object-position: center;
@@ -684,6 +676,11 @@ li {
     }
     
     .media-fix {
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+    .media-fix-less {
         margin-left: 0em;
         margin-right: 0em;
     }
@@ -709,11 +706,6 @@ li {
         margin-right: 0;
     }
         
-    .portfolio {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
     .flowers {
         max-width: 70%;
     }
@@ -737,6 +729,11 @@ li {
         text-align: left;
     }
     
+    .media-fix-less {
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
 }
 
 
@@ -750,11 +747,6 @@ li {
     }
     
     .banner {
-        margin-left: 0;
-        margin-right: 0;
-    }
-        
-    .portfolio {
         margin-left: 0;
         margin-right: 0;
     }
@@ -779,6 +771,11 @@ li {
      .grow {
         text-align: left;
     }
+    
+      .media-fix-less {
+        margin-left: 0em;
+        margin-right: 0em;
+    }
 
 
 }
@@ -796,11 +793,6 @@ li {
         margin-left: 0;
         margin-right: 0;
     }
-        
-    .portfolio {
-        margin-left: 0;
-        margin-right: 0;
-    }
     
     .flowers {
         max-width: 60%;
@@ -815,6 +807,11 @@ li {
     }
     
     .media-fix {
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    
+     .media-fix-less {
         margin-left: 0em;
         margin-right: 0em;
     }
