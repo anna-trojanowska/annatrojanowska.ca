@@ -497,7 +497,59 @@ li {
 
 /*********************************** MEDIA QUERIES ***********************************/
 
+@media only screen and (min-width: 16em) {
+    
+    .lettermark {
+        position: absolute;
+        top: -60px;
+    }
+
+    .banner {
+        margin-left: -1em;
+        margin-right: -1em;
+     }
+        
+    .portfolio {
+        margin-left: -1em;
+        margin-right: -1em;
+        margin-bottom: 1em;
+    }
+    
+    .portfolio-img-link {
+         margin-top: -1em;
+    }
+    
+    .socialcontainer {
+        width: 100%;
+    }
+    
+    .wordmark {
+        margin-top: -1em;
+       
+    }
+    
+    .skills {
+        margin-bottom: 1em;
+
+    }
+    
+    .abilities {
+        padding-left: -5em;
+    }
+    
+    .about {
+        margin-left: -4em;
+        margin-right: -4em;
+    }
+
+}
+
 @media only screen and (min-width: 20em) {
+    
+    .lettermark {
+        position: absolute;
+        top: -60px;
+    }
 
     .banner {
         margin-left: -1em;
