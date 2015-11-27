@@ -497,6 +497,64 @@ li {
 
 /*********************************** MEDIA QUERIES ***********************************/
 
+@media only screen and (min-width: 10em) {
+    
+    .lettermark {
+        position: absolute;
+        top: -60px;
+    }
+
+    .banner {
+        margin-left: -1em;
+        margin-right: -1em;
+     }
+    
+    .portfolio-img-link {
+         margin-top: -1em;
+    }
+    
+    .socialcontainer {
+        width: 100%;
+    }
+    
+    .wordmark {
+        margin-top: -1em;
+       
+    }
+    
+    .skills {
+        margin-bottom: 1em;
+
+    }
+    
+    .abilities {
+        padding-left: -5em;
+    }
+    
+    .media-fix {
+        margin-left: -4em;
+        margin-right: -4em;
+    }
+    
+    .media-fix-less {
+        margin-left: -2em;
+        margin-right: -2em;
+    }
+    
+    .grow {
+        text-align: center;
+    }
+    
+    .top {
+        padding-top: 0em;
+    }
+    
+    .flowers {
+        padding-top: 2em;
+    }
+
+}
+
 @media only screen and (min-width: 16em) {
     
     .lettermark {
@@ -547,6 +605,10 @@ li {
     
     .top {
         padding-top: 0em;
+    }
+    
+    .flowers {
+        padding-top: 2em;
     }
 
 }
@@ -602,6 +664,11 @@ li {
      .top {
         padding-top: 1em;
     }
+    
+     .flowers {
+        padding-top: 2em;
+    }
+
 
 
 }
@@ -647,6 +714,10 @@ li {
     
      .top {
         padding-top: 1em;
+    }
+    
+     .flowers {
+        padding-top: 2em;
     }
 
 
@@ -704,6 +775,10 @@ li {
     .top {
         padding-top: 1em;
     }
+    
+    .flowers {
+        padding-top: 0em;
+    }
 
 }
 
@@ -751,7 +826,11 @@ li {
     }
     
     .top {
-    padding-top: 4em;
+        padding-top: 4em;
+    }
+    
+    .flowers {
+        padding-top: 0em;
     }
     
 }
@@ -798,7 +877,11 @@ li {
     }
     
     .top {
-    padding-top: 6em;
+        padding-top: 6em;
+    }
+    
+    .flowers {
+        padding-top: 0em;
     }
 
 
@@ -845,7 +928,11 @@ li {
     }
     
     .top {
-    padding-top: 6em;
+        padding-top: 6em;
+    }
+    
+    .flowers {
+        padding-top: 0em;
     }
     
 
