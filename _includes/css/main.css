@@ -17,6 +17,9 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    background-image: url(../images/background.jpg) ;
+    background-size: cover;
+    padding: 1.2em;
 }
 
 *, *:before, *:after {
@@ -34,6 +37,9 @@ body {
     padding: 0;
     color: #414042;
     overflow-x: hidden;
+    background-color: white;
+    box-shadow: 2px 2px 2px #888888;
+    
 }
 
 a:hover {
@@ -98,6 +104,8 @@ nav a {
     top: 14px;
     left: 2%;
     width: 60px;
+    padding-top: 1em;
+    padding-left: 0.4em;
 }
 
   
@@ -322,9 +330,40 @@ nav a {
 }
 
 .portfolio a {
-    display: block;
+    display: inline-block;
 }
 
+.previous-next {
+    padding-top: 2em;
+    margin: 0 auto;
+    display: block;
+    width: 10em;
+    text-align: center;
+}
+
+.previous-next a {
+    margin: 0.5em;
+}
+
+.arrow-right {
+    position: relative;
+	width: 0; 
+	height: 0; 
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	border-left: 12px solid #414042;
+    display: inline-block;
+}
+
+.arrow-left {
+    position: relative;
+	width: 0; 
+	height: 0; 
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent; 
+	border-right:12px solid #414042; 
+    display: inline-block;
+}
 
 /*********************************** VIDEO ***********************************/
 
