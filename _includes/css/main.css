@@ -12,8 +12,7 @@
 html {
     box-sizing: border-box;
     
-    font: 'Open Sans', sans-serif;
-    font: 'Sacramento', serif;
+    font-family: 'Open Sans', sans-serif;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -46,6 +45,7 @@ a {
     text-decoration:underline;
     letter-spacing: 1px;
 }
+
     
 
 /*********************************** NAVIGATION ***********************************/
@@ -109,9 +109,17 @@ nav a {
     dispay: block;
 }
 
+.name {
+    font-family: 'Sacramento', cursive;
+    text-transform: lowercase;
+    letter-spacing: -0.1px;
+    font-size: 72px;
+    line-height: 0.75em;
+    margin-top: -1.5em;
+}
+
 .info {
     font-family: 'Open Sans', sans-serif; 
-    letter-spacing: 1px;
     text-align: center;
     margin-bottom: 0;
 }
@@ -122,25 +130,8 @@ nav a {
     letter-spacing: 2px;
     padding-top:1em;
     margin-bottom: 0.2em;
-    font-weight: bolder;
-}
-
-.name {
-    padding-top: 1em;
-    margin-top: 0em;
-    font-weight: lighter;
-    letter-spacing: 2px;
-    line-height: 1em;
-}
-
-.location {
-    font-weight: lighter;
-}
-    
-.skills {
     text-transform: uppercase;
     font-weight: 400;
-
 }
 
 .divider {
@@ -323,6 +314,7 @@ nav a {
 
 .portfolio-img-link {
     position: relative;
+    min-height: 5em;
 }
 
 .portfolio {
@@ -553,6 +545,10 @@ li {
     .flowers {
         padding-top: 2em;
     }
+    
+    .name {
+        margin-top: 0em;
+    }
 
 }
 
@@ -611,6 +607,10 @@ li {
     .flowers {
         padding-top: 2em;
     }
+    
+    .name {
+        margin-top: -0.5em;
+    }
 
 }
 
@@ -662,12 +662,16 @@ li {
         text-align: center;
     }
     
-     .top {
+    .top {
         padding-top: 1em;
     }
     
-     .flowers {
+    .flowers {
         padding-top: 2em;
+    }
+    
+    .name {
+        margin-top: 0em;
     }
 
 
@@ -720,6 +724,10 @@ li {
      .flowers {
         padding-top: 2em;
     }
+    
+    .name {
+        margin-top: -0.5em;
+    }
 
 
 }
@@ -735,7 +743,6 @@ li {
         width: 60px;
     }
 
-    
     .banner {
         margin-left: 0;
         margin-right: 0;
@@ -780,6 +787,10 @@ li {
     .flowers {
         padding-top: 0em;
     }
+    
+    .name {
+        margin-top: -0.5em;
+    }
 
 }
 
@@ -802,12 +813,6 @@ li {
         max-width: 70%;
     }
     
-    .name {
-        font-size: 32px;
-        margin-bottom: 0.8em;
-        margin-top: -2em;
-    }
-    
     .abilities {
         padding-left: 5em;
     }
@@ -817,7 +822,7 @@ li {
         margin-right: 0em;
     }
     
-     .grow {
+    .grow {
         text-align: left;
     }
     
@@ -832,6 +837,10 @@ li {
     
     .flowers {
         padding-top: 0em;
+    }
+    
+    .name {
+        margin-top: -2em;
     }
     
 }
@@ -853,10 +862,6 @@ li {
     
     .flowers {
         max-width: 60%;
-    }
-    
-    .name {
-        margin-top: -2em;
     }
     
     .abilities {
@@ -884,6 +889,10 @@ li {
     .flowers {
         padding-top: 0em;
     }
+    
+    .name {
+        margin-top: -2em;
+    }
 
 
 }
@@ -904,10 +913,6 @@ li {
     
     .flowers {
         max-width: 60%;
-    }
-    
-    .name {
-        margin-top: -3em;
     }
     
     .abilities {
@@ -934,6 +939,10 @@ li {
     
     .flowers {
         padding-top: 0em;
+    }
+    
+    .name {
+        margin-top: -1.5em;
     }
     
 
