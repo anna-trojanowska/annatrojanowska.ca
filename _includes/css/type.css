@@ -48,12 +48,12 @@ fieldset, pre, table {
 
 h1, .exa {
   font-size: 1.8020rem;
-  line-height: 1.6648;
+  line-height: 1.5;
 }
 
 h2, .peta {
   font-size: 1.6018rem;
-  line-height: 1.8729;
+  line-height: 1.6;
 }
 
 h3, .tera {
@@ -63,7 +63,7 @@ h3, .tera {
 
 h4, .giga {
   font-size: 1.2656rem;
-  line-height: 1.1852;
+  line-height: 1.5;
 }
 
 h5, .mega {
