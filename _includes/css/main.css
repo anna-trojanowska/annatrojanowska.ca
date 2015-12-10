@@ -736,7 +736,7 @@ li {
     }
     
     .name {
-        margin-top: 0em;
+        margin-top: -0.5em;
         font-size: 65px;
     }
     
@@ -870,7 +870,7 @@ li {
     }
     
     .name {
-        margin-top: -0.5em;
+        margin-top: -1em;
         font-size: 100px;
     }
     
@@ -928,7 +928,7 @@ li {
     }
     
     .name {
-        margin-top: -1em;
+        margin-top: -1.5em;
     }
     
     .flower-grow {
@@ -984,12 +984,21 @@ li {
     }
     
     .name {
-        margin-top: -2em;
+        margin-top: -1.5em;
     }
     
     .flower-grow {
         width: 100%;
         margin-left: 0em;
+    }
+    
+    .skills {
+        font-size: 26px;
+    }
+    
+    .location {
+        font-size: 16px;
+        margin-top: -16px;
     }
 
 
@@ -1041,6 +1050,16 @@ li {
     
     .name {
         margin-top: -1.5em;
+        font-size: 125px;
+    }
+    
+    .skills {
+        font-size: 32px;   
+    }
+    
+    .location {
+        font-size: 26px;
+        margin-top: -15px;
     }
     
 
