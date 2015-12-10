@@ -17,9 +17,6 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    background-image: url(../images/background.png) ;
-    background-size: cover;
-    padding: 1em;
 }
 
 *, *:before, *:after {
@@ -37,9 +34,14 @@ body {
     padding: 0;
     color: #414042;
     overflow-x: hidden;
+    background-image: url(../images/background.png) ;
+    background-size: cover;
+    padding: 1em;
+}
+
+.wrapper {
     background-color: white;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    
 }
 
 a:hover {
@@ -735,7 +737,7 @@ li {
     
     .name {
         margin-top: 0em;
-        font-size: 75px;
+        font-size: 65px;
     }
     
     .email {
