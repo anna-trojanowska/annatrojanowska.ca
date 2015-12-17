@@ -318,7 +318,7 @@ nav a {
 }
 
 .portfolio-img-link:hover .details {
-    opacity: 1;
+    opacity: 100;
     color: #414042;
 }
 
