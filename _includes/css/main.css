@@ -532,7 +532,7 @@ li {
 .phone {
     text-weight: lighter;
     margin-top: -0.5em;
-    letter-spacing: 1em;
+    letter-spacing: 0.2em;
 }
 
 /*********************************** MEDIA QUERIES ***********************************/
